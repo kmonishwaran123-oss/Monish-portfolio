@@ -64,7 +64,7 @@ export function Timeline() {
             </div>
             
             <motion.a
-              href="\Monishwaran_K_Resume.pdf"
+              href="/Monishwaran_K_Resume.pdf"
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}

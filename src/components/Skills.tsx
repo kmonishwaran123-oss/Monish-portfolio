@@ -117,7 +117,7 @@ export function Skills() {
             Skills & <span className="gradient-text">Expertise</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            A versatile skill set bridging software development and mechanical engineering.
+            
           </p>
         </motion.div>
         

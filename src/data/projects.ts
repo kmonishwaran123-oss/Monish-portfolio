@@ -25,7 +25,7 @@ export const projects: Project[] = [
     challenge: "Ensuring stable combustion, safe hydrogen handling, and efficient fuel switching between Hydrogen and Petrol under varying load conditions.",
     approach: "Implemented real-time sensor monitoring, adaptive injector control, and predictive diagnostics to optimize Hydrogen–Petrol fuel switching, engine performance, and safety.",
     result: "Achieved 15% higher fuel efficiency, 20% reduced downtime, smoother engine performance, and improved reliability and safety.",
-    images: ["baja e.jpeg"],
+    images: ["\baja e.jpg"],
     tech: ['CAD', 'SOLIDWORKS', 'MATLAB'],
   },  
   {
@@ -37,7 +37,7 @@ export const projects: Project[] = [
     challenge: "Designing a reliable sensor network for accurate data collection and implementing an efficient irrigation control system.",
     approach: "Utilized low-power sensors, microcontrollers, and cloud integration to collect data and automate irrigation based on predefined thresholds.",
     result: "Reduced water consumption by 30%, improved crop yield by 20%, and provided farmers with actionable insights through a user-friendly dashboard.",
-    images: ["smart agriculture.jpeg"],
+    images: ["jarvis.jpg"],
     tech: ['IoT', 'Arduino', 'Cloud Computing'],
 
   }

@@ -231,7 +231,7 @@ export function Contact() {
           className="mt-6 grid sm:grid-cols-3 gap-4"
         >
           <a
-            href="\Monishwaran_K_Resume.pdf"
+            href="/Monishwaran_K_Resume.pdf"
             className="glass-card p-4 flex items-center gap-3 hover:border-primary/30 transition-colors group"
           >
             <Download size={18} className="text-primary" />

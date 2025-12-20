@@ -11,6 +11,7 @@ import { Contact } from '@/components/Contact';
 import { Footer } from '@/components/Footer';
 import { ParticleBackground } from '@/components/ParticleBackground';
 import { IntroAnimation } from '@/components/IntroAnimation';
+import { Jarvis } from '@/components/Jarvis';
 
 const Index = () => {
   const [showIntro, setShowIntro] = useState(true);
@@ -48,6 +49,9 @@ const Index = () => {
         
         <Footer />
       </div>
+      
+      {/* JARVIS Assistant */}
+      <Jarvis />
     </div>
   );
 };

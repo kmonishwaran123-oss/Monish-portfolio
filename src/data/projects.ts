@@ -1,6 +1,7 @@
 import bajaImage from "@/assets/baja-e.jpg";
 import nsdcLogo from "@/assets/nsdc-logo.jpg";
 import IOTImage from "@/assets/IOT.jpg";
+import resumeImage from "@/assets/resume.png";
 export interface Project {
   id: string;
   title: string;
@@ -46,7 +47,7 @@ export const projects: Project[] = [
   },
   {
     id: "IOT",
-    title: "Smart Distance measurement System",
+    title: " Distance measurement System",
     tags: ['ALL','Core' ],
     shortDesc: "An IoT-based system to measure distance accurately using sensors.",
     longDesc: "This project uses ultrasonic sensors and a microcontroller to measure and display distance in real time.",
@@ -55,8 +56,19 @@ export const projects: Project[] = [
     result: "The system successfully measured distances with good accuracy and reliability.",
     images: [IOTImage],
     tech: ["Arduino", "C++", "Sensors" ],
+  },
+  {
+    id: "Resume-Analyzer",
+    title: "Resume Analyzer",
+    tags: ['ALL','IT' ],
+    shortDesc: "A tool to analyze resumes and extract key information.",
+    longDesc: "Developed a resume analyzer that extracts key information from resumes and provides insights for recruiters.",
+    challenge: "Designing an efficient parsing algorithm and extracting relevant data from various resume formats.",
+    approach: "Implemented a parsing algorithm using NLP techniques to extract key information from resumes.",
+    result: "Successfully extracted key information from resumes with high accuracy and provided actionable insights for recruiters.",
+    images: [resumeImage],
+    tech: ['Python', 'LLM', 'Machine Learning'],
   }
-  
 ];
 
 export const skills = {

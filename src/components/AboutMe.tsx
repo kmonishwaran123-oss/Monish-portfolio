@@ -1,7 +1,7 @@
 import { motion, useInView, type Variants } from 'framer-motion';
 import { useRef } from 'react';
 import { GraduationCap, Briefcase, Heart, MapPin, Calendar } from 'lucide-react';
-import profileClose from '@/assets/profile-close.jpeg';
+import profileClose from '@/assets/profile-close.jpg';
 
 const education = [
   {
@@ -82,7 +82,7 @@ export function AboutMe() {
                   whileHover={{ scale: 1.02 }}
                   transition={{ duration: 0.3 }}
                 >
-                  <div className="w-32 h-32 md:w-40 md:h-40 rounded-2xl overflow-hidden border-2 border-primary/30 mx-auto md:mx-0">
+                  <div className="w-32 h-200 md:w-40 md:h-130 rounded-3xl overflow-hidden border-2 border-primary/30 mx-auto md:mx-0">
                     <img
                       src={profileClose}
                       alt="Monishwaran K"

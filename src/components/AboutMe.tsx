@@ -14,13 +14,13 @@ const education = [
 
 const interests = [
   { icon: "💻", label: "Coding" },
-  { icon: "🎮", label: "Gaming" },
+  { icon: "📚", label: "Reading" },
   { icon: "🚴", label: "Cycling" },
   { icon: "📷", label: "Photography" },
   { icon: "🏋️", label: "Fitness" },
   { icon: "🎵", label: "Music" },
   { icon: "🌍", label: "Travel" },
-  { icon: "📚", label: "Reading" },
+  { icon: "🎮", label: "Gaming" }
 ];
 
 const containerVariants: Variants = {

@@ -82,9 +82,6 @@ export const projects: Project[] = [
     result: "Successfully analyzed F1 race data with high accuracy and provided actionable insights for teams and drivers.",
     images: [f1Image],
     tech: ['Python', 'Machine Learning', 'Data Analysis'],
-  },
-  {
-    
   }
 ];
 

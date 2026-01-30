@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { motion, type Transition } from 'framer-motion';
 import { Download, Mail, Github, Instagram, Linkedin } from 'lucide-react';
 import { useTilt } from '@/hooks/useTilt';
-import profileImage from '@/assets/profile-main.jpg';
+import profileImage from '@/assets/profile-main.jpeg';
 
 const roles = [
   "Full-Stack Developer",

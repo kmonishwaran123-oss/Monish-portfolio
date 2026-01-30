@@ -69,7 +69,7 @@ export const projects: Project[] = [
     approach: "Implemented a parsing algorithm using NLP techniques to extract key information from resumes.",
     result: "Successfully extracted key information from resumes with high accuracy and provided actionable insights for recruiters.",
     images: [resumeImage],
-    tech: ['Python', 'LLM', 'Machine Learning'],
+    tech: ['Streamlit', 'LangChain', 'Ollama'],
   },
   {
     id: "F1-RoadMap tracker",

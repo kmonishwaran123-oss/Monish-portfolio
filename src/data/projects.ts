@@ -3,6 +3,7 @@ import nsdcLogo from "@/assets/nsdc-logo.jpg";
 import IOTImage from "@/assets/IOT.jpg";
 import resumeImage from "@/assets/resume.jpeg";
 import f1Image from "@/assets/f1.png";
+import mscart from "@/assets/mscart.png";
 
 export interface Project {
   id: string;
@@ -82,7 +83,21 @@ export const projects: Project[] = [
     result: "Successfully analyzed F1 race data with high accuracy and provided actionable insights for teams and drivers.",
     images: [f1Image],
     tech: ['Python', 'Machine Learning', 'Data Analysis'],
-  }
+  },
+  {
+    id: "MScart",
+    title: "MScart",
+    tags: ['ALL','IT' ],
+    shortDesc: "An e-commerce platform for buying and selling products online.",
+    longDesc: "Developed an e-commerce platform that allows users to buy and sell products online, providing a seamless shopping experience.",
+    challenge: "Designing a user-friendly interface and implementing secure payment processing.",
+    approach: "Implemented a user-friendly interface using React and integrated secure payment processing using Stripe.",
+    result: "Successfully launched the e-commerce platform with a growing user base and positive feedback from customers.",
+    images: [mscart],
+    tech: ['React', 'Node.js', 'Stripe', 'MongoDB', 'Express', 'Tailwind CSS'],
+
+  },
+
 ];
 
 export const skills = {

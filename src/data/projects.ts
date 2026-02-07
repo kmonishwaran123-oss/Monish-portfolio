@@ -117,8 +117,9 @@ export const skills = {
   ],
   embedded: [
     { name: "Arduino", level: 75 },
-    { name: "Raspberry Pi", level: 65 },
-    { name: "ESP32", level: 60 },
+    { name: "ESP32", level: 70 },
+    { name: "Raspberry Pi", level: 60},
+    
   ],
   mechanical: [
     { name: "AutoCAD", level: 75 },
